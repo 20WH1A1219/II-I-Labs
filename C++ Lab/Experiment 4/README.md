@@ -1,3 +1,3 @@
+Program 4:
+Write a C++ program to declare Struct. Initialize and display contents of member Variables
 
-4. Given that an EMPLOYEE class contains following members: data members: Employee
-number, Employee name, Basic, DA, IT, Net Salary and print data members.
