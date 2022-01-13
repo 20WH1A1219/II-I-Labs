@@ -12,4 +12,4 @@ Step 4 - Initialize 'ptr' to 100.
 
 Step 5 - Print the Number of bytes of pointer variable and value of pointer variable.
 
-Step 6 - returnn 0 to exit form the program execution. 
+Step 6 - returnn 0 to exit from the program execution. 
