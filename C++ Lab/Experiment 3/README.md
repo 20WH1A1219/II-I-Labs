@@ -18,6 +18,6 @@ Step 6 - Call the get_details() method through the array of class object from 0 
 
 Step 7 - Call the print_details() method through the array of class object from 0 to specific size.
 
-Step 8 - returnn 0 to exit form the program execution.
+Step 8 - returnn 0 to exit from the program execution.
 
 
