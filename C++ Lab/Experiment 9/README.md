@@ -18,4 +18,4 @@ Step 7 - Within the main function create a instances of the person class to ‘p
 
 Step 8 - Call a method of print function using ‘p0’ , 'p1' and 'p2' with their respective syntax.
 
-Step 9 - return 0 to exit form the program execution. 
+Step 9 - return 0 to exit from the program execution. 
