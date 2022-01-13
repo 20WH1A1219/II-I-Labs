@@ -20,4 +20,4 @@ Step 7 - Creating two objects of Employee e1 and e2 along with parameters.
 
 Step 8 - Call the member function display().
 
-Step 9 - return 0 to exit form the program execution. 
+Step 9 - return 0 to exit from the program execution. 
