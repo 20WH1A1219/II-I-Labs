@@ -18,5 +18,5 @@ Step 4 - Create an object (e) of the above class inside the main() method.
 
 Step 5 - Call the member functions get_details() and print_details().
 
-Step 6 - returnn 0 to exit form the program execution.
+Step 6 - returnn 0 to exit from the program execution.
 
