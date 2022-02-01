@@ -11,10 +11,10 @@ class Base{
                cout<<"Value of 'a':"<<a<<endl;
           }
 };
-class child : public Base{
+class Derived : public Base{
        public:
            int b;
-           child(){
+           Derived(){
                a = 45;
            }
            void read(){
@@ -27,7 +27,7 @@ class child : public Base{
 };
 int main(){
     Base obj;
-    child obj1;
+    Derived obj1;
     obj.read();
     obj.display();
     obj1.read();
