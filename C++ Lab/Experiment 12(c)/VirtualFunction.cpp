@@ -1,20 +1,41 @@
 #include<iostream>
 using namespace std;
-class A{
-      public:
-           int a;
-           A(){
-              a = 10;
-           }
+class base {
+public:
+    virtual void show() {
+        cout << "Base class show:\n";
+    }
+
+    void display() {
+        cout << "Base class display:\n";
+    }
 };
-class B: public virtual A{
+
+class derived : public base {
+public:
+
+    void display() {
+        cout << "Derivred class display: \n";
+    }
+
+    void show() {
+        cout << "Derived class show: \n";
+    }
 };
-class C: public virtual A{
-};
-class D: public virtual A{
-};
-int main(){
-    D obj;
-    cout<<"Value of 'a':"<<obj.a<<endl;
+
+int main() {
+    base obj1;
+    base *p;
+    cout << "P points to base:\n";
+
+    p = &obj1;
+    p->display();
+    p->show();
+
+    cout << "\nP points to derived:\n";
+    derived obj2;
+    p = &obj2;
+    p->display();
+    p->show();
     return 0;
 }
